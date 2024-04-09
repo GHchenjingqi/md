@@ -1,0 +1,53 @@
+:root {
+    --c-brand: #217dff;
+    --c-brand-light: #217dff;
+    --c-tip: #217dff;
+  }
+  
+
+
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: #217dff;
+    text-decoration: none;
+}
+a.sidebar-link:hover{
+    color: #217dff !important;
+}
+body{
+
+}
+.app ul{
+    overflow: hidden;
+    height: auto;
+}
+.app ul li{
+    width: 33%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 12px;
+    float: left;
+}
+.app ul li a{
+    text-align: center;
+    display: block;
+    color:#217dff;
+}
+.app ul li a:hover{
+    background: #217dff;
+    border-radius:8px;
+    color: #fff;
+}
+.app h3{margin-top: 80px;}
+.nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active{border-color:#217dff !important}
+a.sidebar-link.active{
+    color: #217dff !important;
+    border-left-color: #217dff !important;
+}
+.home .hero img{
+    max-height: 140px !important;
+}
