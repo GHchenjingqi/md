@@ -1,2 +1,2 @@
-# quxmd.github.io
-md笔记
+# md.github.io
+vuepress 搭建md笔记网站
