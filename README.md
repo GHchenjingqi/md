@@ -1,4 +1,4 @@
-# md.github.io
+# md
 VuePress 搭建前端知识库md笔记网站
 
 # 预览地址
