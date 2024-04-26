@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as e}from"./app-BQhb0Pt0.js";const a={};function s(i,r){return c(),e("div")}const o=t(a,[["render",s],["__file","css clip.html.vue"]]),n=JSON.parse('{"path":"/guide/JavaScript/css%20clip.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"guide/JavaScript/css clip.md"}');export{o as comp,n as data};

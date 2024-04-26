@@ -1,0 +1,12 @@
+import{_ as e,o as t,c as n,a as i}from"./app-BQhb0Pt0.js";const a={},s=i(`<p>查看镜像源</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>npm config get registry
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看config信息</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>npm config list
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>切换镜像源</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>npm config set registry http://registry.cnpmjs.org
+npm config set registry http://registry.npm.taobao.org
+// 推荐
+npm config set registry https://registry.npmmirror.com
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>清理代理</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>npm config rm proxy
+npm config rm https-proxy
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>清理缓存</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>npm cache clean --force
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>取消ssl验证</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>npm config set strict-ssl false
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>npm异常可以切换至cnpm或yarn</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>npm install cnpm -g
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,14),d=[s];function l(r,c){return t(),n("div",null,d)}const p=e(a,[["render",l],["__file","npm常用命令.html.vue"]]),o=JSON.parse('{"path":"/guide/npm/npm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"guide/npm/npm常用命令.md"}');export{p as comp,o as data};
