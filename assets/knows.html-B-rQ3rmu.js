@@ -1,0 +1,1 @@
+import{_ as t,c as n,a as o,r as s,o as a}from"./app-BI9Ul3hK.js";const r={};function c(l,_){const e=s("Menus");return a(),n("div",null,[o(e)])}const p=t(r,[["render",c]]),i=JSON.parse('{"path":"/knows.html","title":"","lang":"en-US","frontmatter":{"sidebar":false},"headers":[],"git":{},"filePathRelative":"knows.md","excerpt":""}');export{p as comp,i as data};

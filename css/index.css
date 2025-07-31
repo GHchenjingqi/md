@@ -1,8 +1,9 @@
 :root {
-    --c-brand: #217dff;
-    --c-brand-light: #217dff;
-    --c-tip: #217dff;
-  }
+    --vp-c-accent: #217dff;
+    --vp-c-accent-bg: #217dff;
+    --vp-c-accent-hover: #217dff;
+    --content-width:1200px;
+}
   
 
 
@@ -18,36 +19,24 @@ a{
 a.sidebar-link:hover{
     color: #217dff !important;
 }
-body{
 
+.vp-hero-image{
+    margin: 3rem auto 1.5rem;
+    max-height:140px !important;
 }
-.app ul{
-    overflow: hidden;
-    height: auto;
+
+.secondary{
+    --vp-c-accent-text: var( --vp-c-accent )
 }
-.app ul li{
-    width: 33%;
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 12px;
-    float: left;
+
+.vp-footer{
+    margin-top: 5rem;
 }
-.app ul li a{
-    text-align: center;
-    display: block;
-    color:#217dff;
-}
-.app ul li a:hover{
-    background: #217dff;
-    border-radius:8px;
-    color: #fff;
-}
-.app h3{margin-top: 80px;}
-.nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active{border-color:#217dff !important}
-a.sidebar-link.active{
-    color: #217dff !important;
-    border-left-color: #217dff !important;
-}
-.home .hero img{
-    max-height: 140px !important;
+
+
+.vp-navbar{
+    border-bottom:none;
+    background: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+    box-shadow: 0 2px 6px 0 rgba(31, 64, 135, 0.127);
+    backdrop-filter: blur(10px); /* 毛玻璃核心 */
 }
