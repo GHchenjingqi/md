@@ -1,11 +1,10 @@
 :root {
-    --vp-c-accent: #217dff;
-    --vp-c-accent-bg: #217dff;
-    --vp-c-accent-hover: #217dff;
-    --content-width:1200px;
+    --vp-c-accent: #217dff !important;
+    --vp-c-accent-bg: #217dff !important;
+    --vp-c-accent-hover: #217dff !important;
+    --content-width:1200px !important;
 }
   
-
 
 ul,li{
     list-style: none;
@@ -13,20 +12,20 @@ ul,li{
     margin: 0;
 }
 a{
-    color: #217dff;
-    text-decoration: none;
+    color: #217dff  !important;
+    text-decoration: none !important;
 }
 a.sidebar-link:hover{
     color: #217dff !important;
 }
 
 .vp-hero-image{
-    margin: 3rem auto 1.5rem;
+    margin: 3rem auto 1.5rem ;
     max-height:140px !important;
 }
 
 .secondary{
-    --vp-c-accent-text: var( --vp-c-accent )
+    --vp-c-accent-text: var( --vp-c-accent ) !important;
 }
 
 .vp-footer{
@@ -35,8 +34,8 @@ a.sidebar-link:hover{
 
 
 .vp-navbar{
-    border-bottom:none;
-    background: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+    border-bottom:none !important;;
+    background: rgba(255, 255, 255, 0.5) !important;; 
     box-shadow: 0 2px 6px 0 rgba(31, 64, 135, 0.127);
     backdrop-filter: blur(10px); /* 毛玻璃核心 */
 }
